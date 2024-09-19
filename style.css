@@ -1,0 +1,50 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+.btn{
+    height: 75px;
+    width: 75px;
+    margin: 15px;
+    font-size: 40px;
+    border: 1px solid black;
+}
+
+#clear-btn{
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.calculator{
+    height: 50px;
+    width: 50px;
+    justify-content: center;
+    align-items: center;
+}
+.first-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+#screen{
+    width: 300px;
+    border: 1px solid black;
+    height: 75px;
+    margin: 15px;
+    direction: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.previous{
+font-size: 20px;
+}
+.currect{
+    font-size: 30px;
+}
